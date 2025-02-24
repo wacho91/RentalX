@@ -10,25 +10,58 @@
 <body>
 
     <!--Header section-->
-    <nav>
-        <!--nav section-->
-        <div class="nav__header">
-            <div class="nav__logo">
-                <a href="#">RentalX</a>
+    <header>
+        <nav>
+            <!--nav section-->
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">RentalX</a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
             </div>
-            <div class="nav__menu__btn" id="menu-btn">
-                <i class="ri-menu-line"></i>
+    
+            <ul class="nav__links" id="nav-links>
+                <li><a href="#home">Home</a></li>
+              <li><a href="#rent">Rent</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#ride">Ride</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="nav__links__btn">
+                <button class="btn">Sign Up</button>
+              </li>
+              <li class="nav__links__btn">
+                <button class="btn">Sign In</button>
+              </li>
+            </ul>
+            <div class="nav__btns">
+                <button class="nav__btn__primary">Sign Up</button>
+                <button class="nav__btn__secondary">Sign In</button>
+            </div>
+        </nav>
+        <div class="section__container header__container" id="Home">
+            <div class="header__image">
+                <img src="./assets/header.png" alt="header">
+            </div>
+            <div class="header__content">
+                <h1>Looking to save more on your rental car?</h1>
+
+                <p>
+                    Discover RentalX car rental aoptions in India with Rent a Car Select
+                    from a range of car options and local specials.
+                </p>
+                <div class="header__links">
+                    <a href="#">
+                        <img src="./assets/store.jpg" alt="store">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/play.png" alt="play">
+                    </a>
+                </div>
             </div>
         </div>
-
-        <ul class="nav__links" id="nav-links>
-            <li><a href="#home">Home</a></li>
-          <li><a href="#rent">Rent</a></li>
-          <li><a href="#service">Services</a></li>
-          <li><a href="#ride">Ride</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    </header>
     
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
