@@ -375,3 +375,41 @@ nav {
     right: 1rem;
     text-align: right;
 }
+
+.download__container {
+    overflow: hidden;
+}
+
+.download__grid {
+    display: grid;
+    padding: 5rem 1rem;
+    background: var(--gradient);
+    border-radius: 1rem;
+}
+
+.download__image {
+    display: none;
+}
+
+.download__content .section__header {
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.download__content p {
+    margin-bottom: 2rem;
+    color: var(--extra-light);
+    line-height: 1.75rem;
+}
+
+.download__links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.download__links img {
+    max-width: 125px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
